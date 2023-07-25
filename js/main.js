@@ -27,6 +27,14 @@ $(document).ready(function () {
         $(this).addClass("active")
     });
 
+    $(".slider-news").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+    })
+
     // tab items
 
     $(".experices-list").on("click", ".experices-item:not(.active)", function(){
