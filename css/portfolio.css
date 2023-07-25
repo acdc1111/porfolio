@@ -1,0 +1,79 @@
+.portfolios {
+    padding: 104px 0 176px;
+}
+
+.portfolios-top {
+    margin-bottom: 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-wrapper {
+    width: 360px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.portfolio-detalis {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: -1px;
+    border-radius: 0px 0px 8px 8px;
+    border-right: 1px solid #F5F5F5;
+    border-bottom: 1px solid #F5F5F5;
+    border-left: 1px solid #F5F5F5;
+    background: #FFF;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-title {
+    font-family: var(--ff-jacarta);
+    font-size: 16px;
+}
+
+.portfolio-link {
+    color: var(--color-secondary);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.portfolio-link span {
+    width: 24px;
+    height: 24px;
+    background: url(../img/Link.svg) no-repeat center;
+}
+
+.slider-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    opacity: 0.5;
+    transition: .2s linear;
+}
+
+.slider-btn.active{
+    opacity: 1;
+}
+
+.portfolios-button {
+    display: flex;
+    gap: 16px;
+}
+
+.btn-prev{
+    background: #EAE6FE url(../img/left.svg) no-repeat center;
+
+}
+
+.btn-next{
+    background: #EAE6FE url(../img/right.svg) no-repeat center;
+
+}
+

@@ -1,0 +1,139 @@
+.experices {
+    background: var(--bg-section);
+    padding: 107px 0 111px;
+}
+
+.dark .experices{
+    background: var(--bg-dark);
+}
+
+.experices-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experices-content {
+    width: 288px;
+}
+
+.experices-title {
+    margin-bottom: 80px;
+}
+
+.experices-item {
+    padding: 14px 24px;
+    margin-bottom: 9px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.experices-item:last-child {
+    margin-bottom: 0;
+}
+
+.experices-item.active {
+    margin-bottom: 24px;
+    background: var(--bg-white);
+    color: var(--color-purple);
+}
+
+.experices-item.active::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url(../img/right.svg) no-repeat center;
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translate(0,-50%);
+    animation: move 2s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(0,-50%);
+    }
+
+    25% {
+        transform: translate(2px,-50%);
+    }
+
+    50% {
+         transform: translate(4px,-50%);
+    }
+
+    75% {
+        transform: translate(2px,-50%);
+    }
+
+    100% {
+        transform: translate(0px,-50%);
+    }
+}
+
+.experisec-tabs {
+    max-width: 779px;
+    width: 100%;
+    position: relative;
+}
+
+.tab {
+    position: absolute;
+    left: 0;
+    top: 29px;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    opacity: 0;
+    transition: .4s linear;
+}
+
+.tab.active{
+    z-index: 1;
+    opacity: 1;
+}
+
+.tab-title {
+    font-family: var(--ff-jacarta);
+    font-size: 18px;
+}
+
+.tab-sity {
+    color: var(--color-secondary);
+    margin: 8px 0 16px;
+}
+
+.tab-year {
+    color: var(--color-secondary);
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.tab-tags {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.tab-tags span {
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid#F1F1F1;
+}
+
+.tab-list {
+    border-top: 1px solid #f1f1f1;
+    padding-top: 32px;
+}
+
+.tab-item {
+    color: var(--color-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 28px;
+    margin-bottom: 16px;
+    background: url(../img/Line.svg) no-repeat left center;
+}

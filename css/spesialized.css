@@ -1,0 +1,77 @@
+.spesialized {
+    background: var(--bg-section);
+    padding: 115px 0 184px;
+}
+
+.dark .spesialized{
+    background: var(--bg-dark);
+}
+
+.spesialized-subtitle {
+    margin: 0 auto;
+}
+
+.spesialized-title {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 104px;
+}
+
+.spesialized-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.spesialized-block {
+    width: 360px;
+    padding: 69px 57px 53px;
+
+}
+
+.spesialized-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #F5F3FE;
+    width: 56px;
+    height: 56px;
+}
+
+.spesialized-icon i{
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+
+.designe{
+    background-image: url(../img/crown.svg) ;
+}
+
+.app{
+    background-image: url(../img/App.svg);
+}
+
+.web{
+    background-image: url(../img/globe.svg);
+}
+
+.spesialized-block-title {
+    margin: 20px 0;
+    display: block;
+    text-align: center;
+    font-family: var(--ff-jacarta);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.spesialized-block-text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}

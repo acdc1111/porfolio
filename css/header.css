@@ -1,0 +1,83 @@
+.header{
+    height: 84px;  
+}
+
+.header-fixed{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    background-color: var(--bg-white);
+    border-bottom: 1px solid #ccc;
+}
+
+.dark .header-fixed{
+    background-color: var(--bg-dark);
+}
+
+.header-wrapper{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.header-logo{
+    width: 114px;
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    font-family: var(--ff-jacarta);
+    align-items: center;
+    font-weight: 700;
+}
+
+.header-logo svg{
+    fill: var(--color-primary);
+    transition: .3s liner;
+
+}
+
+.dark .header-logo svg{
+    fill: var(--color-white);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.menu a{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header-block{
+    width: 158px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.switch{
+    width: 24px;
+    height: 24px;
+    background: url(../img/moon.svg) no-repeat center
+}
+
+.switch.active{
+    background: url(../img/soon.svg) no-repeat center;
+}
+
+.resume {
+    width: 102px;
+    border-radius: 8px;
+    border: 1px solid var(--light-2, #F1F1F1);
+    text-align: center;
+    padding: 16px 0;
+}
+
+
+
