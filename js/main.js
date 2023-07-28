@@ -35,6 +35,14 @@ $(document).ready(function () {
         dots: true
     })
 
+    $(".testimonials-sliders").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: true
+    })
+
     // tab items
 
     $(".experices-list").on("click", ".experices-item:not(.active)", function(){
