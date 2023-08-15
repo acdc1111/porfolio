@@ -3,7 +3,7 @@
     background: var(--bg-section);
 }
 
-.dark .tesimonials{
+.dark .testimonials{
     background: var(--bg-dark);
 }
 
@@ -21,6 +21,8 @@
     background: var(--bg-white);
     position: relative;
     padding: 83px 52px 24px 32px;
+    color: var(--color-primary);
+    border-radius: 8px;
 }
 
 .testimonials-sliders-img{

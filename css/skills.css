@@ -1,0 +1,99 @@
+.skills {
+    padding: 105px 0 175px;
+}
+
+.skills-wrapper {
+    display: flex;
+    margin-top: 72px;
+    justify-content: center;
+    gap: 148px;
+}
+
+.education {
+    width: 400px;
+    padding: 40px 0;
+}
+
+.education-item {
+    font-family: var(--ff-jacarta);
+    font-size: 16px;
+    padding-left: 40px;
+    position: relative;
+    padding-bottom: 64px;
+}
+
+.education-item:last-child {
+    padding-bottom: 0;
+}
+
+.education-item::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.education-item:not(:last-child)::after {
+    content: "";
+    width: 2px;
+    height: 100%;
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 12px;
+}
+
+.education-item span {
+    display: block;
+    font-family: var(--ff-inter);
+}
+
+.education-year {
+    font-weight: 500;
+}
+
+.education-degree {
+    margin: 10px 0 24px;
+    color: var(--color-secondary);
+    font-weight: 400;
+}
+
+.skills-block {
+    max-width: 580px;
+    width: 100%;
+}
+
+.skills-text {
+    color: var(--color-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.skills-bar {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skills-bar-item {
+    text-transform: uppercase;
+}
+
+.bar-indicate {
+    display: block;
+    margin-top: 24px;
+    border-radius: 0px 2px 2px 0px;
+    background:#F5F3FE;
+    position: relative;
+    height: 8px;
+}
