@@ -97,3 +97,26 @@
     position: relative;
     height: 8px;
 }
+
+.bar-indicate::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--color-purple);
+    height: 8px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.w-60::after{
+    width: 60%;
+}
+
+.w-50::after{
+    width: 50%;
+}
+
+.w-40::after{
+    width: 40%;
+}
