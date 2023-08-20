@@ -41,6 +41,17 @@ button {
     cursor: pointer;
 }
 
+input,
+textarea{
+    font: inherit;
+}
+
+input::placeholder,
+textarea::placeholder{
+    font: inherit;
+    color: inherit;
+}
+
 /* main style */
 body {
     font-family: var(--ff-inter);
