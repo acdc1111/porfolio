@@ -118,3 +118,26 @@ body {
     font-size: 0;
     line-height: 0;
 }
+
+.btn-up{
+    position: fixed;
+    z-index: 2;
+    bottom: 100px;
+    right: 50px;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.btn-up svg{
+    width: 30px;
+    height: 30px;
+    fill: #1E1E1E;
+}
+
+.dark .btn-up svg{
+    fill: #fbfbfb;
+}

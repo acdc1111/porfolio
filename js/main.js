@@ -55,4 +55,22 @@ $(document).ready(function () {
             .eq($(this).index())
             .addClass('active')
     })
+
+    $(".year").text("© " + (new Date).getFullYear())
+
+    // btn up
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 200){
+            $(".btn-up").fadeIn()
+        } else{
+            $(".btn-up").fadeOut()  
+        }
+    })
+
+    $(".btn-up").click(function () { 
+        
+        $("html, body").animate({
+            scrollTop: 0
+        }, 800)
+    });
 });
