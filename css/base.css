@@ -53,7 +53,12 @@ textarea::placeholder{
 }
 
 /* main style */
+html, body{
+    height: 100vh;
+}
 body {
+    display: flex;
+    flex-direction: column;
     font-family: var(--ff-inter);
     font-size: 14px;
     font-weight: 500;
@@ -61,11 +66,22 @@ body {
     line-height: 1;
     background-color: var(--bg-white);
     transition: background-color .3s linear, color .3s linear;
+    overflow-x: hidden;
 }
 
 .dark {
     background-color: var(--bg-dark);
     color: var(--color-white);
+}
+
+main{
+    flex: 1;
+}
+
+.container{
+    max-width: 1215px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .inner-subtitle {

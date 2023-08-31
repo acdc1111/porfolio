@@ -13,6 +13,10 @@
     border-bottom: 1px solid #ccc;
 }
 
+.burger{
+    display: none;
+}
+
 .dark .header-fixed{
     background-color: var(--bg-dark);
 }
