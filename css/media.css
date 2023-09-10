@@ -82,6 +82,14 @@
         gap: 0;
         width: 40px;
     }
+
+    .slider-btn{
+        display: none;
+    }
+
+    .education {
+        width: 100%;
+    }
 }
 
 @media(max-width: 390px){
@@ -94,6 +102,18 @@
     }
 
     .spesialized-block {
+        width: 100%;
+    }
+
+    .portfolio-wrapper {
+        width: 100%;
+    }
+
+    .slider-blog-wrapper {
+        width: 100%;
+    }
+
+    .testimonials-sliders-wrapper {
         width: 100%;
     }
 }

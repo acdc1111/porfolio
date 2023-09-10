@@ -11,6 +11,31 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 1201,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 791,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 451,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                }
+            }
+
+        ]
     })
 
     $(".btn-prev").click(function(){
@@ -32,7 +57,35 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
-        dots: true
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1201,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 791,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 451,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    dots: true,
+                }
+            }
+
+        ]
     })
 
     $(".testimonials-sliders").slick({
@@ -40,7 +93,35 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         arrows: false,
-        dots: true
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1201,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 791,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true,
+                }
+            },
+            {
+                breakpoint: 451,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    dots: true,
+                }
+            }
+
+        ]
     })
 
     // tab items
@@ -79,3 +160,4 @@ $(document).ready(function () {
         $('.nav').toggleClass('active')
     })
 });
+

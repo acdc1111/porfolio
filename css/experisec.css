@@ -10,6 +10,8 @@
 .experices-wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .experices-content {
@@ -78,6 +80,7 @@
     max-width: 779px;
     width: 100%;
     position: relative;
+    height: 320px;
 }
 
 .tab {
