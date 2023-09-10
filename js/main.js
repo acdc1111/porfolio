@@ -73,4 +73,9 @@ $(document).ready(function () {
             scrollTop: 0
         }, 800)
     });
+
+    $(".burger").click(function(){
+        $('.burger').toggleClass('active')
+        $('.nav').toggleClass('active')
+    })
 });

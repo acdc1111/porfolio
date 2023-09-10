@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     gap: 56px;
+    flex-wrap: wrap;
 }
 
 .spesialized-block {
