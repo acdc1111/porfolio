@@ -11,6 +11,11 @@
         flex-wrap: wrap;
         gap: 50px;
     }
+
+    .contact-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media(max-width:850px){
